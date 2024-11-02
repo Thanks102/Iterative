@@ -17,7 +17,7 @@
                     <div class="city-businessline">
                         <div class="form-group">
                             <label for="city"><h2>City</h2></label>
-                            <select id="city" name="city">
+                            <select id="city" name="city" required>
                                 <option value="" selected disabled>-- Select City --</option>
                                 <option value="Kuopio">Kuopio</option>
                                 <option value="Rovaniemi">Rovaniemi</option>
@@ -32,7 +32,7 @@
                         
                         <div class="form-group">
                             <label for="businessLine"><h2>Business Line</h2></label>
-                            <select id="businessLine" name="businessLine">
+                            <select id="businessLine" name="businessLine" required>
                                 <option value="" selected disabled>-- Select Business Line --</option>
                                 <option value="55">Accommodation</option>
                                 <option value="56">Banking and Finance</option>
@@ -48,15 +48,15 @@
                     <div class="timeStart-End">
                         <div class="form-group">
                             <label for="timeStart"><h2>Time Start</h2></label>
-                            <input type="date" id="timeStart" name="timeStart" />
+                            <input type="date" id="timeStart" name="timeStart" required/>
                         </div>
                         <div class="form-group">
                             <label for="timeEnd"><h2>Time End</h2></label>
-                            <input type="date" id="timeEnd" name="timeEnd" />
+                            <input type="date" id="timeEnd" name="timeEnd" required/>
                         </div>
                         <div class="form-group">
                             <label for="maxResults"><h2>Max Results</h2></label>
-                            <input type="number" id="maxResults" name="maxResults" />
+                            <input type="number" id="maxResults" name="maxResults" required/>
                         </div>
                     </div>
                 </div>
