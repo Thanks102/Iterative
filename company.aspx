@@ -99,7 +99,7 @@
                             }
                             else
                             {
-                                Response.Write("<tr><td colspan='3'>No results available. Please enter your search criteria and fetch results.</td></tr>");
+                                Response.Write("<tr><td colspan='3'>No results.</td></tr>");
                             }
                         %>
                     </tbody>
